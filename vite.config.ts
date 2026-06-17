@@ -5,7 +5,7 @@ import { traeBadgePlugin } from 'vite-plugin-trae-solo-badge';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/clinical-trial-knowledge-base/',
+  base: '/sp1/',
   build: {
     sourcemap: 'hidden',
   },
