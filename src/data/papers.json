@@ -7,7 +7,7 @@
     "abstract": "This paper demonstrates how to use PROC CDISC to validate SDTM (Study Data Tabulation Model) domains efficiently. We present practical examples of validation rules and error handling techniques that can be implemented in clinical trials.",
     "keywords": ["SDTM", "PROC CDISC", "Validation", "CDISC"],
     "tags": ["SDTM", "CDISC", "Validation", "SAS"],
-    "pdfUrl": "https://pharmasug.org/conferences/pharmasug-2025-us/conference-proceedings/",
+    "pdfUrl": "papers/pharmasug-2025-us-001.pdf",
     "presentationUrl": null,
     "publishedDate": "2025-05-15"
   },
@@ -19,8 +19,8 @@
     "abstract": "This presentation covers advanced programming techniques for creating Analysis Data Model (ADaM) datasets for efficacy endpoints. Topics include BDS structure implementation, handling of multiple analysis windows, and creation of custom derivative variables.",
     "keywords": ["ADaM", "BDS", "Efficacy Analysis", "Statistical Programming"],
     "tags": ["ADaM", "SAS", "Biostatistics", "Clinical Trials"],
-    "pdfUrl": "https://pharmasug.org/conferences/pharmasug-2025-us/conference-proceedings/",
-    "presentationUrl": "https://pharmasug.org/conferences/pharmasug-2025-us/conference-proceedings/",
+    "pdfUrl": "papers/pharmasug-2025-us-002.pdf",
+    "presentationUrl": "papers/pharmasug-2025-us-002-presentation.pdf",
     "publishedDate": "2025-05-15"
   },
   {
@@ -31,7 +31,7 @@
     "abstract": "We present a comprehensive macro-based framework for clinical data review that streamlines the data validation process. The framework includes customizable checks, automated reporting, and integration with existing systems.",
     "keywords": ["SAS Macros", "Data Review", "Clinical Data", "Automation"],
     "tags": ["SAS Macros", "Data Management", "Automation"],
-    "pdfUrl": "https://pharmasug.org/conferences/pharmasug-2025-us/conference-proceedings/",
+    "pdfUrl": "papers/pharmasug-2025-us-003.pdf",
     "presentationUrl": null,
     "publishedDate": "2025-05-16"
   },
@@ -43,8 +43,8 @@
     "abstract": "This paper discusses approaches for implementing integrated analyses in oncology studies, including pooled analysis, meta-analysis, and cross-study comparisons. We address statistical considerations and programming implementation.",
     "keywords": ["Oncology", "Integrated Analysis", "Pooled Analysis", "Meta-Analysis"],
     "tags": ["Oncology", "Statistical Analysis", "CDISC"],
-    "pdfUrl": "https://pharmasug.org/conferences/pharmasug-2025-eu/conference-proceedings/",
-    "presentationUrl": "https://pharmasug.org/conferences/pharmasug-2025-eu/conference-proceedings/",
+    "pdfUrl": "papers/pharmasug-2025-eu-001.pdf",
+    "presentationUrl": "papers/pharmasug-2025-eu-001-presentation.pdf",
     "publishedDate": "2025-03-20"
   },
   {
@@ -55,7 +55,7 @@
     "abstract": "This presentation explores the complete workflow for real-world evidence (RWE) studies, from data collection and cleaning to statistical analysis and reporting. We discuss data sources, quality considerations, and analytical methods.",
     "keywords": ["Real-World Evidence", "RWE", "Observational Studies", "Data Sources"],
     "tags": ["RWE", "Observational Studies", "Data Management"],
-    "pdfUrl": "https://pharmasug.org/conferences/pharmasug-2025-eu/conference-proceedings/",
+    "pdfUrl": "papers/pharmasug-2025-eu-002.pdf",
     "presentationUrl": null,
     "publishedDate": "2025-03-21"
   },
@@ -67,8 +67,8 @@
     "abstract": "This talk demonstrates how to use the tidymodels framework in R for clinical trial simulation. We cover model specification, resampling techniques, and parallel computing for simulation studies.",
     "keywords": ["R", "tidymodels", "Clinical Trial Simulation", "Machine Learning"],
     "tags": ["R", "Machine Learning", "Simulation", "Statistics"],
-    "pdfUrl": "https://www.pharmarug.org/conferences/2025/conference-proceedings/",
-    "presentationUrl": "https://www.pharmarug.org/conferences/2025/conference-proceedings/",
+    "pdfUrl": "papers/pharmarug-2025-001.pdf",
+    "presentationUrl": "papers/pharmarug-2025-001-presentation.pdf",
     "publishedDate": "2025-06-10"
   },
   {
@@ -79,7 +79,7 @@
     "abstract": "We present development of interactive Shiny applications for clinical data review. The applications provide user-friendly interfaces for exploring patient data, generating listings, and identifying anomalies.",
     "keywords": ["Shiny", "R", "Data Review", "Interactive Applications"],
     "tags": ["R", "Shiny", "Data Review", "Visualization"],
-    "pdfUrl": "https://www.pharmarug.org/conferences/2025/conference-proceedings/",
+    "pdfUrl": "papers/pharmarug-2025-002.pdf",
     "presentationUrl": null,
     "publishedDate": "2025-06-11"
   },
@@ -91,8 +91,8 @@
     "abstract": "This session introduces the CDISC Library API and demonstrates how to programmatically access CDISC standards. Topics include authentication, endpoint usage, and integration with data pipeline tools.",
     "keywords": ["CDISC Library", "API", "Standards", "Automation"],
     "tags": ["CDISC", "API", "Standards", "Automation"],
-    "pdfUrl": "https://www.cdisc.org/events/educational-events/2025",
-    "presentationUrl": "https://www.cdisc.org/events/educational-events/2025",
+    "pdfUrl": "papers/cdisc-2025-001.pdf",
+    "presentationUrl": "papers/cdisc-2025-001-presentation.pdf",
     "publishedDate": "2025-10-15"
   },
   {
@@ -103,7 +103,7 @@
     "abstract": "This presentation covers best practices for implementing Define-XML 2.1 in clinical trials. We discuss schema validation, variable metadata, and integration with dataset definitions.",
     "keywords": ["Define-XML", "CDISC", "Metadata", "Implementation"],
     "tags": ["Define-XML", "CDISC", "Metadata", "Standards"],
-    "pdfUrl": "https://www.cdisc.org/events/educational-events/2025",
+    "pdfUrl": "papers/cdisc-2025-002.pdf",
     "presentationUrl": null,
     "publishedDate": "2025-10-15"
   },
@@ -115,8 +115,8 @@
     "abstract": "本文探讨医疗器械临床试验中的数据管理要点和统计分析方法。重点介绍数据采集、质疑管理、数据锁定以及统计分析报告生成的最佳实践。",
     "keywords": ["医疗器械", "临床试验", "数据管理", "统计分析"],
     "tags": ["医疗器械", "数据管理", "统计分析", "临床试验"],
-    "pdfUrl": "https://www.cmac.org.cn/conference/",
-    "presentationUrl": "https://www.cmac.org.cn/conference/",
+    "pdfUrl": "papers/cmac-2025-001.pdf",
+    "presentationUrl": "papers/cmac-2025-001-presentation.pdf",
     "publishedDate": "2025-04-20"
   },
   {
@@ -127,7 +127,7 @@
     "abstract": "本文介绍统计编程在医疗器械临床评价中的应用，包括疗效评估、安全性分析、亚组分析等。通过实际案例展示SAS编程在临床评价中的具体应用。",
     "keywords": ["医疗器械", "临床评价", "SAS编程", "疗效评估"],
     "tags": ["医疗器械", "SAS", "临床评价", "统计分析"],
-    "pdfUrl": "https://www.cmac.org.cn/conference/",
+    "pdfUrl": "papers/cmac-2025-002.pdf",
     "presentationUrl": null,
     "publishedDate": "2025-04-21"
   },
@@ -139,8 +139,8 @@
     "abstract": "This paper explores the use of large language models (LLMs) in generating and reviewing Statistical Analysis Plans (SAPs). We discuss prompt engineering strategies, validation approaches, and quality assessment methods.",
     "keywords": ["LLM", "AI", "Statistical Analysis Plan", "Automation"],
     "tags": ["AI", "Statistical Analysis", "Automation", "NLP"],
-    "pdfUrl": "https://pharmasug.org/conferences/pharmasug-2026-us/conference-proceedings/",
-    "presentationUrl": "https://pharmasug.org/conferences/pharmasug-2026-us/conference-proceedings/",
+    "pdfUrl": "papers/pharmasug-2026-us-001.pdf",
+    "presentationUrl": "papers/pharmasug-2026-us-001-presentation.pdf",
     "publishedDate": "2026-05-12"
   },
   {
@@ -151,7 +151,7 @@
     "abstract": "We present a centralized statistical monitoring framework implemented in R for detecting data quality issues across multi-center clinical trials. The approach combines risk-based monitoring principles with statistical algorithms.",
     "keywords": ["Risk-Based Monitoring", "R", "Data Quality", "Multi-center"],
     "tags": ["R", "Data Quality", "Monitoring", "Clinical Operations"],
-    "pdfUrl": "https://pharmasug.org/conferences/pharmasug-2026-us/conference-proceedings/",
+    "pdfUrl": "papers/pharmasug-2026-us-002.pdf",
     "presentationUrl": null,
     "publishedDate": "2026-05-13"
   }

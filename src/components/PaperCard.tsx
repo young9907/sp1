@@ -1,4 +1,4 @@
-import { FileText, Presentation, Calendar, Tag } from 'lucide-react'
+import { FileText, Calendar, Tag, Download } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 interface PaperCardProps {
@@ -8,6 +8,7 @@ interface PaperCardProps {
   abstract: string
   tags: string[]
   publishedDate: string
+  pdfUrl?: string
   conferenceName?: string
   showConference?: boolean
 }
@@ -19,6 +20,7 @@ export default function PaperCard({
   abstract,
   tags,
   publishedDate,
+  pdfUrl,
   conferenceName,
   showConference = false
 }: PaperCardProps) {
@@ -61,11 +63,23 @@ export default function PaperCard({
               <Calendar className="w-3 h-3" />
               {publishedDate}
             </span>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-3">
               <span className="flex items-center gap-1 text-xs text-accent font-medium">
                 <FileText className="w-4 h-4" />
                 查看详情
               </span>
+              {pdfUrl && (
+                <a
+                  href={`${import.meta.env.BASE_URL}${pdfUrl}`}
+                  download
+                  onClick={(e) => e.stopPropagation()}
+                  className="flex items-center gap-1 text-xs text-white font-medium px-2 py-1 bg-accent hover:bg-accent-dark rounded transition-colors"
+                  title="下载 PDF"
+                >
+                  <Download className="w-3 h-3" />
+                  PDF
+                </a>
+              )}
             </div>
           </div>
         </div>

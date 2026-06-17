@@ -1,5 +1,5 @@
 import { useParams, Link, useNavigate } from 'react-router-dom'
-import { ArrowLeft, Calendar, Users, ExternalLink, FileText, Presentation, Tag, ArrowRight } from 'lucide-react'
+import { ArrowLeft, Calendar, Users, ExternalLink, FileText, Presentation, Tag, ArrowRight, Download } from 'lucide-react'
 import papers from '../data/papers.json'
 import conferences from '../data/conferences.json'
 
@@ -176,40 +176,66 @@ export default function PaperDetailPage() {
 
               {/* Resource Links */}
               <div className="bg-white rounded-xl shadow-md p-6">
-                <h3 className="font-semibold text-primary mb-4">资源链接</h3>
+                <h3 className="font-semibold text-primary mb-4">资料下载</h3>
                 <div className="space-y-3">
                   {paper.pdfUrl && (
-                    <a
-                      href={paper.pdfUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-3 p-3 bg-neutral hover:bg-accent/5 rounded-lg transition-colors group"
-                    >
-                      <FileText className="w-5 h-5 text-accent" />
-                      <span className="text-sm font-medium text-gray-700 group-hover:text-accent transition-colors">
-                        查看论文 PDF
-                      </span>
-                      <ExternalLink className="w-4 h-4 text-gray-400 ml-auto" />
-                    </a>
+                    <>
+                      <a
+                        href={`${import.meta.env.BASE_URL}${paper.pdfUrl}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-3 p-3 bg-neutral hover:bg-accent/5 rounded-lg transition-colors group"
+                      >
+                        <FileText className="w-5 h-5 text-accent" />
+                        <span className="text-sm font-medium text-gray-700 group-hover:text-accent transition-colors">
+                          在线查看论文
+                        </span>
+                        <ExternalLink className="w-4 h-4 text-gray-400 ml-auto" />
+                      </a>
+                      <a
+                        href={`${import.meta.env.BASE_URL}${paper.pdfUrl}`}
+                        download
+                        className="flex items-center gap-3 p-3 bg-accent hover:bg-accent-dark rounded-lg transition-colors group"
+                      >
+                        <Download className="w-5 h-5 text-white" />
+                        <span className="text-sm font-medium text-white">
+                          下载 PDF
+                        </span>
+                        <span className="ml-auto text-xs text-white/80">PDF</span>
+                      </a>
+                    </>
                   )}
                   {paper.presentationUrl && (
-                    <a
-                      href={paper.presentationUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-3 p-3 bg-neutral hover:bg-accent/5 rounded-lg transition-colors group"
-                    >
-                      <Presentation className="w-5 h-5 text-accent" />
-                      <span className="text-sm font-medium text-gray-700 group-hover:text-accent transition-colors">
-                        查看演示文稿
-                      </span>
-                      <ExternalLink className="w-4 h-4 text-gray-400 ml-auto" />
-                    </a>
+                    <>
+                      <a
+                        href={`${import.meta.env.BASE_URL}${paper.presentationUrl}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-3 p-3 bg-neutral hover:bg-accent/5 rounded-lg transition-colors group"
+                      >
+                        <Presentation className="w-5 h-5 text-accent" />
+                        <span className="text-sm font-medium text-gray-700 group-hover:text-accent transition-colors">
+                          在线查看演示文稿
+                        </span>
+                        <ExternalLink className="w-4 h-4 text-gray-400 ml-auto" />
+                      </a>
+                      <a
+                        href={`${import.meta.env.BASE_URL}${paper.presentationUrl}`}
+                        download
+                        className="flex items-center gap-3 p-3 bg-primary hover:bg-primary-dark rounded-lg transition-colors group"
+                      >
+                        <Download className="w-5 h-5 text-white" />
+                        <span className="text-sm font-medium text-white">
+                          下载演示文稿
+                        </span>
+                        <span className="ml-auto text-xs text-white/80">PDF</span>
+                      </a>
+                    </>
                   )}
                 </div>
-                <p className="mt-4 text-xs text-gray-500 text-center">
-                  资源链接指向 {conference?.name || '会议'} 官方网站
-                </p>
+                {(!paper.pdfUrl && !paper.presentationUrl) && (
+                  <p className="text-sm text-gray-500 mt-2">暂无下载资源</p>
+                )}
               </div>
 
               {/* Tags */}
