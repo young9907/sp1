@@ -1,0 +1,23 @@
+[
+  { "id": "sdtm", "name": "SDTM", "category": "标准", "count": 3 },
+  { "id": "adam", "name": "ADaM", "category": "标准", "count": 2 },
+  { "id": "cdisc", "name": "CDISC", "category": "标准", "count": 4 },
+  { "id": "define-xml", "name": "Define-XML", "category": "标准", "count": 1 },
+  { "id": "sas", "name": "SAS", "category": "工具", "count": 4 },
+  { "id": "r", "name": "R", "category": "工具", "count": 3 },
+  { "id": "validation", "name": "Validation", "category": "技术", "count": 2 },
+  { "id": "macros", "name": "SAS Macros", "category": "工具", "count": 1 },
+  { "id": "shiny", "name": "Shiny", "category": "工具", "count": 1 },
+  { "id": "biostatistics", "name": "Biostatistics", "category": "领域", "count": 2 },
+  { "id": "clinical-trials", "name": "Clinical Trials", "category": "领域", "count": 3 },
+  { "id": "data-management", "name": "Data Management", "category": "领域", "count": 4 },
+  { "id": "oncology", "name": "Oncology", "category": "治疗领域", "count": 1 },
+  { "id": "rwe", "name": "Real-World Evidence", "category": "领域", "count": 1 },
+  { "id": "machine-learning", "name": "Machine Learning", "category": "技术", "count": 2 },
+  { "id": "ai", "name": "AI", "category": "技术", "count": 1 },
+  { "id": "automation", "name": "Automation", "category": "技术", "count": 3 },
+  { "id": "simulation", "name": "Simulation", "category": "技术", "count": 1 },
+  { "id": "visualization", "name": "Visualization", "category": "技术", "count": 1 },
+  { "id": "monitoring", "name": "Monitoring", "category": "领域", "count": 1 },
+  { "id": "medical-device", "name": "医疗器械", "category": "领域", "count": 2 }
+]

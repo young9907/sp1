@@ -1,0 +1,56 @@
+[
+  {
+    "id": "pharmasug-2026-us",
+    "name": "PharmaSUG",
+    "year": 2026,
+    "region": "US",
+    "fullName": "PharmaSUG 2026 US Conference",
+    "url": "https://pharmasug.org/conferences/pharmasug-2026-us/conference-proceedings/",
+    "description": "The premier conference for statistical programmers and biostatisticians in the pharmaceutical industry."
+  },
+  {
+    "id": "pharmasug-2025-us",
+    "name": "PharmaSUG",
+    "year": 2025,
+    "region": "US",
+    "fullName": "PharmaSUG 2025 US Conference",
+    "url": "https://pharmasug.org/conferences/pharmasug-2025-us/conference-proceedings/",
+    "description": "Annual US conference covering SAS programming, biostatistics, and clinical data management."
+  },
+  {
+    "id": "pharmasug-2025-eu",
+    "name": "PharmaSUG",
+    "year": 2025,
+    "region": "EU",
+    "fullName": "PharmaSUG 2025 EU Conference",
+    "url": "https://pharmasug.org/conferences/pharmasug-2025-eu/conference-proceedings/",
+    "description": "European conference for pharmaceutical statistics and programming professionals."
+  },
+  {
+    "id": "pharmarug-2025",
+    "name": "PharmaRug",
+    "year": 2025,
+    "region": "US",
+    "fullName": "PharmaRug 2025 Conference",
+    "url": "https://www.pharmarug.org/conferences/2025/conference-proceedings/",
+    "description": "Regional users group conference for R programming in pharmaceutical industry."
+  },
+  {
+    "id": "cdisc-2025",
+    "name": "CDISC",
+    "year": 2025,
+    "region": "Global",
+    "fullName": "CDISC 2025 Global Conference",
+    "url": "https://www.cdisc.org/events/educational-events/2025",
+    "description": "CDISC标准的全球会议，涵盖数据标准、监管提交和临床研究数据治理。"
+  },
+  {
+    "id": "cmac-2025",
+    "name": "CMAC",
+    "year": 2025,
+    "region": "China",
+    "fullName": "CMAC 2025 Conference",
+    "url": "https://www.cmac.org.cn/conference/",
+    "description": "中国医疗器械创新学术会议，专注于临床试验数据管理和统计编程。"
+  }
+]
