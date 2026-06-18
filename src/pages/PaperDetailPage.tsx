@@ -40,22 +40,23 @@ export default function PaperDetailPage() {
       {/* Header */}
       <section className="bg-primary text-white py-12">
         <div className="container mx-auto px-4">
-          <Link
-            to="/"
-            className="inline-flex items-center gap-2 text-blue-200 hover:text-white mb-6 transition-colors"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            返回首页
-          </Link>
-
           {conference && (
-            <Link
-              to={`/conference/${conference.id}`}
-              className="inline-flex items-center gap-2 text-blue-200 hover:text-white mb-4 transition-colors text-sm"
-            >
-              {conference.name} {conference.year}
-              <ArrowRight className="w-4 h-4" />
-            </Link>
+            <>
+              <Link
+                to={`/category/${conference.name.toLowerCase()}`}
+                className="inline-flex items-center gap-2 text-blue-200 hover:text-white mb-6 transition-colors"
+              >
+                <ArrowLeft className="w-4 h-4" />
+                返回 {conference.name} 会议列表
+              </Link>
+              <Link
+                to={`/conference/${conference.id}`}
+                className="inline-flex items-center gap-2 text-blue-200 hover:text-white mb-4 transition-colors text-sm"
+              >
+                {conference.name} {conference.year}
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </>
           )}
 
           <h1 className="text-2xl md:text-3xl font-serif font-bold leading-relaxed mb-6">

@@ -70,11 +70,11 @@ export default function ConferencePage() {
       <section className="bg-primary text-white py-12">
         <div className="container mx-auto px-4">
           <Link
-            to="/"
+            to={`/category/${conference.name.toLowerCase()}`}
             className="inline-flex items-center gap-2 text-blue-200 hover:text-white mb-6 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            返回首页
+            返回 {conference.name} 会议列表
           </Link>
 
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
