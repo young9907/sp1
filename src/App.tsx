@@ -8,7 +8,7 @@ import SearchPage from "./pages/SearchPage";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="min-h-screen bg-neutral flex flex-col">
         <Header />
         <main className="flex-1">
