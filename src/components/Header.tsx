@@ -31,10 +31,10 @@ export default function Header() {
 
           <nav className="hidden md:flex items-center gap-6">
             <Link to="/" className="text-sm hover:text-accent transition-colors">首页</Link>
-            <Link to="/conference/pharmasug-2025-us" className="text-sm hover:text-accent transition-colors">PharmaSUG</Link>
-            <Link to="/conference/pharmarug-2025" className="text-sm hover:text-accent transition-colors">PharmaRug</Link>
-            <Link to="/conference/cdisc-2025" className="text-sm hover:text-accent transition-colors">CDISC</Link>
-            <Link to="/conference/cmac-2025" className="text-sm hover:text-accent transition-colors">CMAC</Link>
+            <Link to="/category/pharmasug" className="text-sm hover:text-accent transition-colors">PharmaSUG</Link>
+            <Link to="/category/pharmarug" className="text-sm hover:text-accent transition-colors">PharmaRug</Link>
+            <Link to="/category/cdisc" className="text-sm hover:text-accent transition-colors">CDISC</Link>
+            <Link to="/category/cmac" className="text-sm hover:text-accent transition-colors">CMAC</Link>
           </nav>
 
           <form onSubmit={handleSearch} className="hidden md:flex items-center">
@@ -62,10 +62,10 @@ export default function Header() {
           <div className="md:hidden py-4 border-t border-blue-700">
             <nav className="flex flex-col gap-2 mb-4">
               <Link to="/" className="px-3 py-2 text-sm hover:bg-primary-light rounded-lg transition-colors" onClick={() => setIsMenuOpen(false)}>首页</Link>
-              <Link to="/conference/pharmasug-2025-us" className="px-3 py-2 text-sm hover:bg-primary-light rounded-lg transition-colors" onClick={() => setIsMenuOpen(false)}>PharmaSUG</Link>
-              <Link to="/conference/pharmarug-2025" className="px-3 py-2 text-sm hover:bg-primary-light rounded-lg transition-colors" onClick={() => setIsMenuOpen(false)}>PharmaRug</Link>
-              <Link to="/conference/cdisc-2025" className="px-3 py-2 text-sm hover:bg-primary-light rounded-lg transition-colors" onClick={() => setIsMenuOpen(false)}>CDISC</Link>
-              <Link to="/conference/cmac-2025" className="px-3 py-2 text-sm hover:bg-primary-light rounded-lg transition-colors" onClick={() => setIsMenuOpen(false)}>CMAC</Link>
+              <Link to="/category/pharmasug" className="px-3 py-2 text-sm hover:bg-primary-light rounded-lg transition-colors" onClick={() => setIsMenuOpen(false)}>PharmaSUG</Link>
+              <Link to="/category/pharmarug" className="px-3 py-2 text-sm hover:bg-primary-light rounded-lg transition-colors" onClick={() => setIsMenuOpen(false)}>PharmaRug</Link>
+              <Link to="/category/cdisc" className="px-3 py-2 text-sm hover:bg-primary-light rounded-lg transition-colors" onClick={() => setIsMenuOpen(false)}>CDISC</Link>
+              <Link to="/category/cmac" className="px-3 py-2 text-sm hover:bg-primary-light rounded-lg transition-colors" onClick={() => setIsMenuOpen(false)}>CMAC</Link>
             </nav>
             <form onSubmit={handleSearch} className="flex items-center">
               <div className="relative flex-1">

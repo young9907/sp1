@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
+import ConferenceCategoryPage from "./pages/ConferenceCategoryPage";
 import ConferencePage from "./pages/ConferencePage";
 import PaperDetailPage from "./pages/PaperDetailPage";
 import SearchPage from "./pages/SearchPage";
@@ -14,6 +15,7 @@ export default function App() {
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/category/:name" element={<ConferenceCategoryPage />} />
             <Route path="/conference/:id" element={<ConferencePage />} />
             <Route path="/paper/:id" element={<PaperDetailPage />} />
             <Route path="/search" element={<SearchPage />} />
